@@ -39,6 +39,7 @@ def self.song_count
 
 ```
 At this point, the Artist class is done and it is time to move to the Author class!!
+
 The code for the #posts instance method in Author class did not pass the test until I had to fully define ‘author=’ methods in the Post class. Another switch to a different class to create the relationships between objects: posts and author. After initializing and adding author to Post class attribute accessors, the #posts instance method in Author class passed the test.
 Finally, I should point out that I had some difficulty writing the code for the #author_name instance method in the Post class. The spec requirements for #author_name was: 
 (1). belongs to an author, and 
