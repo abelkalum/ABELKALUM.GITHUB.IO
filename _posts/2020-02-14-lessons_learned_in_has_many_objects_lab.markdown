@@ -8,7 +8,9 @@ permalink:  lessons_learned_in_has_many_objects_lab
 
 The Has Many Objects Lab gave me a better perspective of how objects in different classes can relate. It forces one to pay more attention to detail on how to write the lines of code that can support this interdependency. Without the code linking related classes, one can write perfect lines of code for one class. However, upon running tests you will get a lot of errors if the lines which were supposed to link the classes are incorrect or have not been linked by respective code in the related class.
 When dealing with object relationships it is easy to get confused figuring out what object(s) belongs to what class, so I decided right at the beginning to use learn –f-f (learn fail fast) method to run the tests. The learn –f-f method stops running the tests once the first failed test is encountered. The advantage of doing this was that the lab would not be so intimidating or overwhelming as I was dealing with it one step or test at a time. However, this called for patience to navigate back and forth between the four different classes and their respective specs. This back and forth scenario can be seen in the examples below.
-When I wrote the code for the Artist class’s #songs instance method, I got an error. (See both below).
+When I wrote the code for the Artist class’s #songs instance method, I got an error. (See below).
+
+The #songs instance method:
 
 ```
 def songs
@@ -16,6 +18,8 @@ def songs
  end
 
 ```
+
+The resulting error from the test:
 
 ```
 Failure/Error: Song.all.select {|song| song.artist == self}
