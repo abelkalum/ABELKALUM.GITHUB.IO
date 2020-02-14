@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Lessons Learned in Has Many Objects Lab"
-date:       2020-02-14 20:41:38 +0000
+date:       2020-02-14 15:41:39 -0500
 permalink:  lessons_learned_in_has_many_objects_lab
 ---
 
