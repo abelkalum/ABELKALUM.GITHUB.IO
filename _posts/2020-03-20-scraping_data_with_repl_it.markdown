@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scraping Data with Repl.it"
-date:       2020-03-20 22:42:00 +0000
+date:       2020-03-20 18:42:01 -0400
 permalink:  scraping_data_with_repl_it
 ---
 
