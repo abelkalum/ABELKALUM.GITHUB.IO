@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Many Moving Parts / Objects"
-date:       2020-04-02 00:27:23 +0000
+title:      "CLI Many Moving Objects"
+date:       2020-04-01 20:27:24 -0400
 permalink:  many_moving_parts_objects
 ---
 
