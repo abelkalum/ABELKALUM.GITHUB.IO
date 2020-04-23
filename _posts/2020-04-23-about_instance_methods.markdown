@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "About Instance Methods"
-date:       2020-04-23 14:51:11 +0000
+date:       2020-04-23 10:51:12 -0400
 permalink:  about_instance_methods
 ---
 
@@ -18,6 +18,6 @@ class SayHello
   end
 end
 ```
-Instance methods are used when “*you are required to act on a specific instance of a class. When you need to introduce a functionality that corresponds to the identity of an instance, you should use the instance method.*” [Source: https://www.railscarma.com/blog/ror/ruby-class-methods-class-instance-methods-ruby/]
+Instance methods are used when “you are required to act on a specific instance of a class. When you need to introduce a functionality that corresponds to the identity of an instance, you should use the instance method.” [Source: https://www.railscarma.com/blog/ror/ruby-class-methods-class-instance-methods-ruby/]
 In other words, when you are dealing with instance methods you should understand that each instance method has its own functionality and the only way to access that functionality is through the instance method.
 
