@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Single Responsibility Principle in Class Methods"
-date:       2020-05-07 16:16:50 +0000
+date:       2020-05-07 12:16:51 -0400
 permalink:  single_responsibility_principle_in_class_methods
 ---
 
@@ -61,4 +61,4 @@ class CommissionCalculator
   end
 end
 ```
-The single responsibility principle ensures that the code we write is logical and dry. When you find out that your code does not meet the single responsibility principle, it is time to refactor that code! 
+The single responsibility principle ensures that the code we write is logical, clean, and DRY (Don't Repeat Yourself). When you find out that your code does not meet the single responsibility principle, it is time to refactor that code! 
