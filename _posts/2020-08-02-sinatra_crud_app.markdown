@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra CRUD App"
-date:       2020-08-02 23:53:59 +0000
+date:       2020-08-02 19:54:00 -0400
 permalink:  sinatra_crud_app
 ---
 
