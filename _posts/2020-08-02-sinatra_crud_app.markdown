@@ -34,7 +34,8 @@ Below are the format directives for the above method:
 %p - Meridian indicator, uppercase (``AM'' or ``PM'')
 
 One of my entries, therefore, looked like this:
-```
+
+
 
    <b> Sinatra::Base </b>
 
@@ -49,5 +50,6 @@ One of my entries, therefore, looked like this:
    <a href="#">Delete this Entry</a> 
 
    <a href="#">Back</a> 
-```
+   
+   
 The user has the option of editing, deleting, or going back to their show page to create a new entry, see all other entries, or log out.
