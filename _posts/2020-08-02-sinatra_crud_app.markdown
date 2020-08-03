@@ -18,13 +18,21 @@ def formatted_created_at
  end
 ```
 Below are the format directives for the above method:
+
 %A - The full weekday name (``Sunday'')
+
 %d - Day of the month, zero-padded (01..31)
+
 %b - The abbreviated month name (``Jan'')
+
 %Y - Year with century (can be negative, 4 digits at least)
+
 %l - Hour of the day, 12-hour clock, blank-padded ( 1..12)
+
 %M - Minute of the hour (00..59)
+
 %p - Meridian indicator, uppercase (``AM'' or ``PM'')
+
 One of my entries, therefore, looked like this:
 Sinatra::Base
 Today I learned that Sinatra::Base class provides the context for all evaluation in a Sinatra application.
