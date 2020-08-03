@@ -34,11 +34,19 @@ Below are the format directives for the above method:
 %p - Meridian indicator, uppercase (``AM'' or ``PM'')
 
 One of my entries, therefore, looked like this:
+
 Sinatra::Base
+
 Today I learned that Sinatra::Base class provides the context for all evaluation in a Sinatra application.
+
 Created by: Foxy
+
 Created on Sunday, 02 Aug 2020 8:12 PM
+
 Edit
+
 Delete this Entry
+
 Back
+
 The user has the option of editing, deleting, or going back to their show page to create a new entry, see all other entries, or log out.
