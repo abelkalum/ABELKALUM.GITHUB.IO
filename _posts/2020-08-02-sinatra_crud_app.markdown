@@ -43,10 +43,10 @@ One of my entries, therefore, looked like this:
 
   Created on Sunday, 02 Aug 2020 8:12 PM
 
-  <u>Edit</u> 
+  <a href="#">Edit</a>
 
-  <u>Delete this Entry</u> 
+  <a href="#">Delete this Entry</a> 
 
-  <u>Back</u> 
+  <a href="#">Back</a> 
 
 The user has the option of editing, deleting, or going back to their show page to create a new entry, see all other entries, or log out.
