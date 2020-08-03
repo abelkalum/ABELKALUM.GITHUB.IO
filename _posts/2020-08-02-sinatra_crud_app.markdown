@@ -35,18 +35,18 @@ Below are the format directives for the above method:
 
 One of my entries, therefore, looked like this:
 
-Sinatra::Base
+  <b> Sinatra::Base </b>
 
-Today I learned that Sinatra::Base class provides the context for all evaluation in a Sinatra application.
+  Today I learned that Sinatra::Base class provides the context for all evaluation in a Sinatra application.
 
-Created by: Foxy
+  Created by: Foxy
 
-Created on Sunday, 02 Aug 2020 8:12 PM
+  Created on Sunday, 02 Aug 2020 8:12 PM
 
-Edit
+  Edit
 
-Delete this Entry
+  Delete this Entry
 
-Back
+  Back
 
 The user has the option of editing, deleting, or going back to their show page to create a new entry, see all other entries, or log out.
