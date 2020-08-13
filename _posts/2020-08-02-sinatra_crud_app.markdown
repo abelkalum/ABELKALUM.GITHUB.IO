@@ -31,18 +31,12 @@ Below are the format directives for the above method:
 
 One of my entries, therefore, looked like this:
 
-Sinatra::Base
-
-Today I learned that Sinatra::Base class provides the context for all evaluation in a Sinatra application.
-
-Created by: Foxy
-
-Created on Sunday, 02 Aug 2020 8:12 PM
-
-**Edit**
-
-**Delete this Entry**
-
-**Back**
+Sinatra::Base <br>
+Today I learned that Sinatra::Base class provides the context for all evaluation in a Sinatra application.<br>
+Created by: Foxy<br>
+Created on Sunday, 02 Aug 2020 8:12 PM<br>
+**Edit**<br>
+**Delete this Entry**<br>
+**Back**<br>
 
 The user has the option of editing, deleting, or going back to their show page to create a new entry, see all other entries, or log out.
