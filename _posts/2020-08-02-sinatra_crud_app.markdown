@@ -20,19 +20,23 @@ def formatted_created_at
  end
 ```
 Below are the format directives for the above method:
-%A - The full weekday name (``Sunday'')
-%d - Day of the month, zero-padded (01..31)
-%b - The abbreviated month name (``Jan'')
-%Y - Year with century (can be negative, 4 digits at least)
-%l - Hour of the day, 12-hour clock, blank-padded ( 1..12)
-%M - Minute of the hour (00..59)
-%p - Meridian indicator, uppercase (``AM'' or ``PM'')
+
+* %A - The full weekday name (``Sunday'')
+* %d - Day of the month, zero-padded (01..31)
+* %b - The abbreviated month name (``Jan'')
+* %Y - Year with century (can be negative, 4 digits at least)
+* %l - Hour of the day, 12-hour clock, blank-padded ( 1..12)
+* %M - Minute of the hour (00..59)
+* %p - Meridian indicator, uppercase (``AM'' or ``PM'')
+
 One of my entries, therefore, looked like this:
+
 Sinatra::Base
 Today I learned that Sinatra::Base class provides the context for all evaluation in a Sinatra application.
 Created by: Foxy
 Created on Sunday, 02 Aug 2020 8:12 PM
-Edit
-Delete this Entry
-Back
+**Edit**
+**Delete this Entry**
+**Back**
+
 The user has the option of editing, deleting, or going back to their show page to create a new entry, see all other entries, or log out.
