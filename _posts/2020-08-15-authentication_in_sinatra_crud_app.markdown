@@ -10,10 +10,10 @@ It is not safe to store passwords in the database in their raw form. To protect 
 
 So how does this work? For the password authentication to work one should:
 
-1. Include bcrypt gem in the Gemfile.
-2. Add the password_digest column in the users’ table.
-3. Add has_secure_password method in the User model file.
-4. Include sign up and login form for User model.
+* Include bcrypt gem in the Gemfile.
+* Add the password_digest column in the users’ table.
+* Add has_secure_password method in the User model file.
+* Include sign up and login form for User model.
 
 When the above conditions have been met, then one should create users through signup and login, and add #authenticate method in the sessions controller to verify app users’ passwords. The #authenticate method is provided by the has_secure_password method. 
 In my app I used the #authenticate method in my post ‘/login’ route as shown below:
