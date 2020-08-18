@@ -20,6 +20,7 @@ My DELETE form in my views looked like this:
 It is the hidden input field in the second line of the form above that uses Rack::MethodOverride. It only works if the middleware is mounted above the controllers in config.ru like shown below:
 
 require './config/environment'
+
 if ActiveRecord::Migrator.needs_migration?
   raise 'Migrations are pending. Run `rake db:migrate` to resolve the issue.'
 end
