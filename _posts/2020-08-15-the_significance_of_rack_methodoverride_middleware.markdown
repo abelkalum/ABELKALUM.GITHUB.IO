@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Significance of Rack::MethodOverride Middleware"
-date:       2020-08-15 20:20:35 +0000
+date:       2020-08-15 16:20:35 -0400
 permalink:  the_significance_of_rack_methodoverride_middleware
 ---
 
@@ -24,8 +24,11 @@ if ActiveRecord::Migrator.needs_migration?
   raise 'Migrations are pending. Run `rake db:migrate` to resolve the issue.'
 end
 use Rack::MethodOverride
+
 use UsersController
+
 use DiaryEntriesController
+
 run ApplicationController
 
 The Rack::MethodOverride middleware will interpret any requests with name="method" by translating the request to whatever is set by the value attribute. So in the above example, the post method gets translated to a DELETE request. Without Rack::MethodOverride middleware in your config.ru file your app will not know how to handle patch and delete requests!
